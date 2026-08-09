@@ -390,6 +390,11 @@ const submitQuiz =
 const retryQuiz =
     document.getElementById("retryQuiz");
 
+
+const currentUnit = 'Unit 1';
+const studentNameInput = document.getElementById('studentName');
+const studentClassInput = document.getElementById('studentClass');
+const trackingUrl = "";
 const quizResult =
     document.getElementById("quizResult");
 
