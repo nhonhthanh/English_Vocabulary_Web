@@ -268,4 +268,230 @@ document.addEventListener("DOMContentLoaded", function () {
 
     showCard();
 
-});
+});// ========================================
+// UNIT 1 QUIZ
+// ========================================
+
+const quizQuestions = [
+
+    {
+        question: "A skilled ______ makes beautiful traditional products by hand.",
+        options: ["artisan", "electrician", "firefighter", "collector"],
+        answer: "artisan"
+    },
+
+    {
+        question: "We should ______ our old traditions for future generations.",
+        options: ["preserve", "shorten", "sort", "instruct"],
+        answer: "preserve"
+    },
+
+    {
+        question: "I need to ______ more information about the pottery village.",
+        options: ["find out", "come back", "go out", "look around"],
+        answer: "find out"
+    },
+
+    {
+        question: "The children should ______ their grandparents' advice.",
+        options: ["look for", "take care of", "get on with", "give advice"],
+        answer: "take care of"
+    },
+
+    {
+        question: "These traditional crafts have been ______ from generation to generation.",
+        options: ["handed down", "cut down", "gone out", "found out"],
+        answer: "handed down"
+    },
+
+    {
+        question: "The town is famous for its special ______.",
+        options: ["food", "facilities", "property", "function"],
+        answer: "speciality food"
+    },
+
+    {
+        question: "The local people are very ______ and always welcome visitors warmly.",
+        options: ["neighbourly", "developing", "original", "productive"],
+        answer: "neighbourly"
+    },
+
+    {
+        question: "The new shopping mall has many modern ______.",
+        options: ["facilities", "fragrances", "artisans", "occasions"],
+        answer: "facilities"
+    },
+
+    {
+        question: "Tourism can contribute to the ______ of a local community.",
+        options: ["development", "collection", "donation", "enjoyment"],
+        answer: "development"
+    },
+
+    {
+        question: "Many people work ______ to protect traditional handicrafts.",
+        options: ["responsibly", "attractive", "voluntary", "proud"],
+        answer: "responsibly"
+    }
+
+];
+
+
+// ========================================
+// DISPLAY QUIZ
+// ========================================
+
+const quizContainer =
+    document.getElementById("quizContainer");
+
+const submitQuiz =
+    document.getElementById("submitQuiz");
+
+const retryQuiz =
+    document.getElementById("retryQuiz");
+
+const quizResult =
+    document.getElementById("quizResult");
+
+
+function loadQuiz() {
+
+    if (!quizContainer) {
+        return;
+    }
+
+    quizContainer.innerHTML = "";
+
+    quizQuestions.forEach(function (item, index) {
+
+        const questionDiv =
+            document.createElement("div");
+
+        questionDiv.className = "question";
+
+        const questionTitle =
+            document.createElement("h3");
+
+        questionTitle.textContent =
+            (index + 1) + ". " + item.question;
+
+        questionDiv.appendChild(questionTitle);
+
+
+        item.options.forEach(function (option) {
+
+            const label =
+                document.createElement("label");
+
+            label.className = "option";
+
+            label.innerHTML = `
+                <input
+                    type="radio"
+                    name="question${index}"
+                    value="${option}"
+                >
+                ${option}
+            `;
+
+            questionDiv.appendChild(label);
+
+        });
+
+
+        quizContainer.appendChild(questionDiv);
+
+    });
+
+    quizResult.textContent = "";
+
+    submitQuiz.style.display = "inline-block";
+
+    retryQuiz.style.display = "none";
+}
+
+
+// ========================================
+// CHECK ANSWERS
+// ========================================
+
+if (submitQuiz) {
+
+    submitQuiz.addEventListener("click", function () {
+
+        let score = 0;
+
+        quizQuestions.forEach(function (item, index) {
+
+            const selected =
+                document.querySelector(
+                    `input[name="question${index}"]:checked`
+                );
+
+            const questionDiv =
+                quizContainer.children[index];
+
+            if (selected) {
+
+                if (selected.value === item.answer) {
+
+                    score++;
+
+                    questionDiv.style.border =
+                        "2px solid #15803d";
+
+                } else {
+
+                    questionDiv.style.border =
+                        "2px solid #dc2626";
+                }
+
+            } else {
+
+                questionDiv.style.border =
+                    "2px solid #dc2626";
+            }
+
+        });
+
+
+        quizResult.textContent =
+            "Your score: " +
+            score +
+            " / " +
+            quizQuestions.length;
+
+        submitQuiz.style.display = "none";
+
+        retryQuiz.style.display = "inline-block";
+
+    });
+
+}
+
+
+// ========================================
+// TRY AGAIN
+// ========================================
+
+if (retryQuiz) {
+
+    retryQuiz.addEventListener("click", function () {
+
+        loadQuiz();
+
+        window.scrollTo({
+            top: document.getElementById("quizSection").offsetTop,
+            behavior: "smooth"
+        });
+
+    });
+
+}
+
+
+// ========================================
+// START QUIZ
+// ========================================
+
+loadQuiz();
