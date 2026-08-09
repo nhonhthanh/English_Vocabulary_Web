@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>English 9 Vocabulary</title>
-
+<link rel="stylesheet" href="style.css">
 <style>
     * {
         box-sizing: border-box;
@@ -174,9 +174,42 @@
 
     <!-- VOCABULARY -->
     <div id="vocabulary" class="section active content">
-
+<input
+    type="text"
+    id="vocabularySearch"
+    class="search-box"
+    placeholder="Search vocabulary..."
+>
         <h2>Vocabulary</h2>
+<div id="flashcardSection">
+    <h3>Flashcards</h3>
 
+    <div id="flashcard" class="flashcard">
+        <div>
+            <div id="flashcardWord" class="flashcard-word">
+                Click to start
+            </div>
+
+            <div id="flashcardMeaning" class="flashcard-meaning">
+                Click the card to reveal the meaning.
+            </div>
+        </div>
+    </div>
+
+    <div style="text-align: center;">
+        <button id="prevCard" class="check-button">
+            ← Previous
+        </button>
+
+        <span id="cardCounter" style="margin: 0 15px; font-weight: bold;">
+            Card 1
+        </span>
+
+        <button id="nextCard" class="check-button">
+            Next →
+        </button>
+    </div>
+</div>
         <table>
             <tr>
                 <th>No.</th>
@@ -523,6 +556,6 @@ function showSection(sectionId, button) {
     button.classList.add("active");
 }
 </script>
-
+<script src="script.js"></script>
 </body>
 </html>
