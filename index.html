@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>English 9 Vocabulary</title>
+
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #f4f7fb;
+        color: #1f2937;
+    }
+
+    header {
+        background: #1e3a8a;
+        color: white;
+        padding: 30px 20px;
+        text-align: center;
+    }
+
+    header h1 {
+        margin: 0 0 8px;
+        font-size: 32px;
+    }
+
+    header p {
+        margin: 0;
+        font-size: 16px;
+    }
+
+    .container {
+        max-width: 1100px;
+        margin: 30px auto;
+        padding: 0 20px;
+    }
+
+    .unit-title {
+        background: white;
+        padding: 20px;
+        border-radius: 12px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        margin-bottom: 20px;
+    }
+
+    .unit-title h2 {
+        margin: 0;
+        color: #1e3a8a;
+    }
+
+    .tabs {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+    }
+
+    .tab {
+        border: none;
+        padding: 12px 20px;
+        border-radius: 8px;
+        background: #dbeafe;
+        color: #1e3a8a;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .tab:hover {
+        background: #bfdbfe;
+    }
+
+    .tab.active {
+        background: #1e3a8a;
+        color: white;
+    }
+
+    .content {
+        background: white;
+        padding: 25px;
+        border-radius: 12px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    th, td {
+        border-bottom: 1px solid #e5e7eb;
+        padding: 12px;
+        text-align: left;
+        vertical-align: top;
+    }
+
+    th {
+        background: #eff6ff;
+        color: #1e3a8a;
+    }
+
+    .word {
+        font-weight: bold;
+        color: #111827;
+    }
+
+    .pos {
+        color: #6b7280;
+        font-style: italic;
+    }
+
+    .section {
+        display: none;
+    }
+
+    .section.active {
+        display: block;
+    }
+
+    footer {
+        text-align: center;
+        padding: 30px;
+        color: #6b7280;
+        font-size: 14px;
+    }
+
+    @media (max-width: 700px) {
+        table {
+            font-size: 14px;
+        }
+
+        th, td {
+            padding: 8px;
+        }
+
+        header h1 {
+            font-size: 25px;
+        }
+    }
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>English 9 Vocabulary</h1>
+    <p>Global Success</p>
+    <p><strong>Teacher: Huynh Thanh Nhon</strong></p>
+</header>
+
+<div class="container">
+
+    <div class="unit-title">
+        <h2>Unit 1: Local Community</h2>
+    </div>
+
+    <div class="tabs">
+        <button class="tab active" onclick="showSection('vocabulary', this)">
+            Vocabulary
+        </button>
+
+        <button class="tab" onclick="showSection('collocations', this)">
+            Collocations
+        </button>
+
+        <button class="tab" onclick="showSection('wordform', this)">
+            Word Form
+        </button>
+    </div>
+
+    <!-- VOCABULARY -->
+    <div id="vocabulary" class="section active content">
+
+        <h2>Vocabulary</h2>
+
+        <table>
+            <tr>
+                <th>No.</th>
+                <th>Word / Phrase</th>
+                <th>Pronunciation</th>
+                <th>Meaning</th>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td><span class="word">artisan</span> <span class="pos">(n)</span></td>
+                <td>/ˈɑːtɪzæn/</td>
+                <td>thợ thủ công</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td><span class="word">city centre</span> <span class="pos">(n)</span></td>
+                <td>/ˈsɪti ˈsɛntə/</td>
+                <td>trung tâm thành phố</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td><span class="word">community</span> <span class="pos">(n)</span></td>
+                <td>/kəˈmjuːnɪti/</td>
+                <td>cộng đồng</td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td><span class="word">craft</span> <span class="pos">(n)</span></td>
+                <td>/krɑːft/</td>
+                <td>thủ công mỹ nghệ</td>
+            </tr>
+
+            <tr>
+                <td>5</td>
+                <td><span class="word">delivery person</span> <span class="pos">(n)</span></td>
+                <td>/dɪˈlɪvəri ˈpɜːsən/</td>
+                <td>người giao hàng</td>
+            </tr>
+
+            <tr>
+                <td>6</td>
+                <td><span class="word">electrical wires</span> <span class="pos">(n)</span></td>
+                <td>/ɪˈlɛktrɪkəl waɪərz/</td>
+                <td>dây điện</td>
+            </tr>
+
+            <tr>
+                <td>7</td>
+                <td><span class="word">electrician</span> <span class="pos">(n)</span></td>
+                <td>/ɪlɛkˈtrɪʃən/</td>
+                <td>thợ điện</td>
+            </tr>
+
+            <tr>
+                <td>8</td>
+                <td><span class="word">facilities</span> <span class="pos">(n)</span></td>
+                <td>/fəˈsɪlɪtiz/</td>
+                <td>cơ sở vật chất</td>
+            </tr>
+
+            <tr>
+                <td>9</td>
+                <td><span class="word">firefighter</span> <span class="pos">(n)</span></td>
+                <td>/ˈfaɪəˌfaɪtə/</td>
+                <td>lính cứu hỏa</td>
+            </tr>
+
+            <tr>
+                <td>10</td>
+                <td><span class="word">fragrance</span> <span class="pos">(n)</span></td>
+                <td>/ˈfreɪɡrəns/</td>
+                <td>hương thơm</td>
+            </tr>
+
+            <tr>
+                <td>11</td>
+                <td><span class="word">function</span> <span class="pos">(n)</span></td>
+                <td>/ˈfʌŋkʃən/</td>
+                <td>chức năng</td>
+            </tr>
+
+            <tr>
+                <td>12</td>
+                <td><span class="word">garbage collector</span> <span class="pos">(n)</span></td>
+                <td>/ˈɡɑːbɪdʒ kəˈlɛktə/</td>
+                <td>người thu gom rác</td>
+            </tr>
+
+            <tr>
+                <td>13</td>
+                <td><span class="word">hand-craft</span> <span class="pos">(v)</span></td>
+                <td>/ˈhændkrɑːft/</td>
+                <td>làm thủ công</td>
+            </tr>
+
+            <tr>
+                <td>14</td>
+                <td><span class="word">handicraft</span> <span class="pos">(n)</span></td>
+                <td>/ˈhændɪkrɑːft/</td>
+                <td>đồ thủ công</td>
+            </tr>
+
+            <tr>
+                <td>15</td>
+                <td><span class="word">instruct</span> <span class="pos">(v)</span></td>
+                <td>/ɪnˈstrʌkt/</td>
+                <td>hướng dẫn</td>
+            </tr>
+
+            <tr>
+                <td>16</td>
+                <td><span class="word">local</span> <span class="pos">(adj)</span></td>
+                <td>/ˈləʊkəl/</td>
+                <td>địa phương</td>
+            </tr>
+
+            <tr>
+                <td>17</td>
+                <td><span class="word">neighbourhood</span> <span class="pos">(n)</span></td>
+                <td>/ˈneɪbəhʊd/</td>
+                <td>khu vực lân cận</td>
+            </tr>
+
+            <tr>
+                <td>18</td>
+                <td><span class="word">occasion</span> <span class="pos">(n)</span></td>
+                <td>/əˈkeɪʒən/</td>
+                <td>dịp, cơ hội</td>
+            </tr>
+
+            <tr>
+                <td>19</td>
+                <td><span class="word">original</span> <span class="pos">(adj)</span></td>
+                <td>/əˈrɪdʒɪnəl/</td>
+                <td>nguyên bản</td>
+            </tr>
+
+            <tr>
+                <td>20</td>
+                <td><span class="word">police officer</span> <span class="pos">(n)</span></td>
+                <td>/pəˈliːs ˈɒfɪsə/</td>
+                <td>cảnh sát</td>
+            </tr>
+
+            <tr>
+                <td>21</td>
+                <td><span class="word">pottery</span> <span class="pos">(n)</span></td>
+                <td>/ˈpɒtəri/</td>
+                <td>đồ gốm</td>
+            </tr>
+
+            <tr>
+                <td>22</td>
+                <td><span class="word">preserve</span> <span class="pos">(v)</span></td>
+                <td>/prɪˈzɜːv/</td>
+                <td>bảo tồn</td>
+            </tr>
+
+            <tr>
+                <td>23</td>
+                <td><span class="word">property</span> <span class="pos">(n)</span></td>
+                <td>/ˈprɒpəti/</td>
+                <td>tài sản</td>
+            </tr>
+
+            <tr>
+                <td>24</td>
+                <td><span class="word">shopping malls</span> <span class="pos">(n)</span></td>
+                <td>/ˈʃɒpɪŋ mɔːlz/</td>
+                <td>trung tâm mua sắm</td>
+            </tr>
+
+            <tr>
+                <td>25</td>
+                <td><span class="word">shorten</span> <span class="pos">(v)</span></td>
+                <td>/ˈʃɔːtn/</td>
+                <td>rút ngắn</td>
+            </tr>
+
+            <tr>
+                <td>26</td>
+                <td><span class="word">sort</span> <span class="pos">(v)</span></td>
+                <td>/sɔːrt/</td>
+                <td>phân loại</td>
+            </tr>
+
+            <tr>
+                <td>27</td>
+                <td><span class="word">speciality food</span> <span class="pos">(n)</span></td>
+                <td>/ˌspɛʃiˈælɪti fuːd/</td>
+                <td>đặc sản</td>
+            </tr>
+
+            <tr>
+                <td>28</td>
+                <td><span class="word">suburb</span> <span class="pos">(n)</span></td>
+                <td>/ˈsʌbɜːb/</td>
+                <td>ngoại ô</td>
+            </tr>
+
+            <tr>
+                <td>29</td>
+                <td><span class="word">tourist attraction</span> <span class="pos">(n)</span></td>
+                <td>/ˈtʊərɪst əˈtrækʃən/</td>
+                <td>điểm thu hút khách du lịch</td>
+            </tr>
+
+            <tr>
+                <td>30</td>
+                <td><span class="word">world-famous</span> <span class="pos">(adj)</span></td>
+                <td>/ˌwɜːld ˈfeɪməs/</td>
+                <td>nổi tiếng thế giới</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- COLLOCATIONS -->
+    <div id="collocations" class="section content">
+
+        <h2>Collocations & Phrasal Verbs</h2>
+
+        <table>
+            <tr>
+                <th>No.</th>
+                <th>Collocation / Phrase / Phrasal Verb</th>
+                <th>Meaning</th>
+            </tr>
+
+            <tr><td>1</td><td><span class="word">come back</span></td><td>trở lại</td></tr>
+            <tr><td>2</td><td><span class="word">cut down on</span></td><td>giảm bớt</td></tr>
+            <tr><td>3</td><td><span class="word">find out</span></td><td>tìm ra</td></tr>
+            <tr><td>4</td><td><span class="word">get on with</span></td><td>hòa thuận với</td></tr>
+            <tr><td>5</td><td><span class="word">go out</span></td><td>đi ra ngoài</td></tr>
+            <tr><td>6</td><td><span class="word">give advice</span></td><td>đưa ra lời khuyên</td></tr>
+            <tr><td>7</td><td><span class="word">hand down / pass down</span></td><td>truyền lại</td></tr>
+            <tr><td>8</td><td><span class="word">look around</span></td><td>nhìn xung quanh</td></tr>
+            <tr><td>9</td><td><span class="word">look for</span></td><td>tìm kiếm</td></tr>
+            <tr><td>10</td><td><span class="word">obey the law</span></td><td>tuân thủ pháp luật</td></tr>
+            <tr><td>11</td><td><span class="word">remind of</span></td><td>nhắc nhở</td></tr>
+            <tr><td>12</td><td><span class="word">take care of</span></td><td>chăm sóc</td></tr>
+        </table>
+    </div>
+
+    <!-- WORD FORM -->
+    <div id="wordform" class="section content">
+
+        <h2>Word Form</h2>
+
+        <table>
+            <tr>
+                <th>No.</th>
+                <th>Word Family</th>
+                <th>Meaning</th>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td><b>neighbor</b> (n) → <b>neighborly</b> (adj) → <b>neighborliness</b> (n)</td>
+                <td>hàng xóm → thân thiện, có tình làng nghĩa xóm → sự thân thiện</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td><b>collect</b> (v) → <b>collection</b> (n) → <b>collector</b> (n) → <b>collective</b> (adj) → <b>collectively</b> (adv)</td>
+                <td>thu thập → bộ sưu tập → người sưu tầm → tập thể → cùng nhau</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td><b>produce</b> (v) → <b>product</b> (n) → <b>production</b> (n) → <b>producer</b> (n) → <b>productive</b> (adj) → <b>productively</b> (adv)</td>
+                <td>sản xuất → sản phẩm → sự sản xuất → nhà sản xuất → có năng suất → một cách hiệu quả</td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td><b>attract</b> (v) → <b>attraction</b> (n) → <b>attractive</b> (adj) → <b>attractively</b> (adv)</td>
+                <td>thu hút → sự thu hút/điểm thu hút → hấp dẫn → một cách hấp dẫn</td>
+            </tr>
+
+            <tr>
+                <td>5</td>
+                <td><b>responsibility</b> (n) → <b>responsible</b> (adj) → <b>responsibly</b> (adv)</td>
+                <td>trách nhiệm → có trách nhiệm → một cách có trách nhiệm</td>
+            </tr>
+
+            <tr>
+                <td>6</td>
+                <td><b>enjoy</b> (v) → <b>enjoyment</b> (n) → <b>enjoyable</b> (adj) → <b>enjoyably</b> (adv)</td>
+                <td>tận hưởng → niềm vui → thú vị → một cách thú vị</td>
+            </tr>
+
+            <tr>
+                <td>7</td>
+                <td><b>pride</b> (n/v) → <b>proud</b> (adj) → <b>proudly</b> (adv)</td>
+                <td>niềm tự hào / tự hào → tự hào → một cách tự hào</td>
+            </tr>
+
+            <tr>
+                <td>8</td>
+                <td><b>develop</b> (v) → <b>development</b> (n) → <b>developer</b> (n) → <b>developed</b> (adj) → <b>developing</b> (adj)</td>
+                <td>phát triển → sự phát triển → nhà phát triển → đã phát triển → đang phát triển</td>
+            </tr>
+
+            <tr>
+                <td>9</td>
+                <td><b>volunteer</b> (v/n) → <b>voluntary</b> (adj) → <b>voluntarily</b> (adv)</td>
+                <td>tình nguyện / tình nguyện viên → tự nguyện → một cách tự nguyện</td>
+            </tr>
+
+            <tr>
+                <td>10</td>
+                <td><b>donate</b> (v) → <b>donation</b> (n) → <b>donor</b> (n)</td>
+                <td>quyên góp, hiến tặng → sự quyên góp → người hiến tặng</td>
+            </tr>
+
+        </table>
+    </div>
+
+</div>
+
+<footer>
+    © 2026 Huynh Thanh Nhon | English 9 – Global Success
+</footer>
+
+<script>
+function showSection(sectionId, button) {
+
+    const sections = document.querySelectorAll(".section");
+    const tabs = document.querySelectorAll(".tab");
+
+    sections.forEach(section => {
+        section.classList.remove("active");
+    });
+
+    tabs.forEach(tab => {
+        tab.classList.remove("active");
+    });
+
+    document.getElementById(sectionId).classList.add("active");
+    button.classList.add("active");
+}
+</script>
+
+</body>
+</html>
