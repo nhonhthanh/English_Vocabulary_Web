@@ -1,0 +1,80 @@
+[
+  {
+    "no": 1,
+    "phrase": "come back",
+    "type": "phrasal verb",
+    "meaning": "trở lại"
+  },
+  {
+    "no": 2,
+    "phrase": "cut down on",
+    "type": "phrasal verb",
+    "meaning": "giảm bớt"
+  },
+  {
+    "no": 3,
+    "phrase": "find out",
+    "type": "phrasal verb",
+    "meaning": "tìm ra"
+  },
+  {
+    "no": 4,
+    "phrase": "get on with",
+    "type": "phrasal verb",
+    "meaning": "hòa thuận với"
+  },
+  {
+    "no": 5,
+    "phrase": "go out",
+    "type": "phrasal verb",
+    "meaning": "đi ra ngoài"
+  },
+  {
+    "no": 6,
+    "phrase": "give advice",
+    "type": "collocation",
+    "meaning": "đưa ra lời khuyên"
+  },
+  {
+    "no": 7,
+    "phrase": "hand down",
+    "type": "phrasal verb",
+    "meaning": "truyền lại"
+  },
+  {
+    "no": 8,
+    "phrase": "pass down",
+    "type": "phrasal verb",
+    "meaning": "truyền lại"
+  },
+  {
+    "no": 9,
+    "phrase": "look around",
+    "type": "phrasal verb",
+    "meaning": "nhìn xung quanh"
+  },
+  {
+    "no": 10,
+    "phrase": "look for",
+    "type": "phrasal verb",
+    "meaning": "tìm kiếm"
+  },
+  {
+    "no": 11,
+    "phrase": "obey the law",
+    "type": "collocation",
+    "meaning": "tuân thủ pháp luật"
+  },
+  {
+    "no": 12,
+    "phrase": "remind of",
+    "type": "phrase",
+    "meaning": "nhắc nhở"
+  },
+  {
+    "no": 13,
+    "phrase": "take care of",
+    "type": "phrase",
+    "meaning": "chăm sóc"
+  }
+]

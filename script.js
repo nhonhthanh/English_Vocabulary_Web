@@ -14,7 +14,47 @@ document.addEventListener("DOMContentLoaded", function () {
         ? document.querySelector("#flashcardSection").nextElementSibling
         : null;
 
+// ========================================
+// LOAD VOCABULARY FROM JSON
+// ========================================
 
+const vocabularyBody = document.getElementById("vocabularyBody");
+
+if (vocabularyBody) {
+
+    fetch("Data/Unit 1/vocabulary.json")
+        .then(response => {
+            if (!response.ok) {
+                throw new Error("Cannot load vocabulary.json");
+            }
+            return response.json();
+        })
+        .then(data => {
+
+            vocabularyBody.innerHTML = "";
+
+            data.forEach(item => {
+
+                const row = document.createElement("tr");
+
+                row.innerHTML = `
+                    <td>${item.no}</td>
+                    <td>
+                        <span class="word">${item.word}</span>
+                        <span class="pos">(${item.pos})</span>
+                    </td>
+                    <td>${item.pronunciation}</td>
+                    <td>${item.meaning}</td>
+                `;
+
+                vocabularyBody.appendChild(row);
+            });
+
+        })
+        .catch(error => {
+            console.error("Vocabulary loading error:", error);
+        });
+}
     // ========================================
     // VOCABULARY SEARCH
     // ========================================

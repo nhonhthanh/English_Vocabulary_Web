@@ -1,0 +1,278 @@
+[
+  {
+    "no": 1,
+    "base": "neighbor",
+    "meaning": "hàng xóm",
+    "wordForms": [
+      {
+        "word": "neighbor",
+        "pos": "n",
+        "meaning": "hàng xóm"
+      },
+      {
+        "word": "neighborly",
+        "pos": "adj",
+        "meaning": "thân thiện, có tình làng nghĩa xóm"
+      },
+      {
+        "word": "neighborliness",
+        "pos": "n",
+        "meaning": "sự thân thiện, tình làng nghĩa xóm"
+      }
+    ]
+  },
+  {
+    "no": 2,
+    "base": "collect",
+    "meaning": "thu thập, sưu tầm",
+    "wordForms": [
+      {
+        "word": "collect",
+        "pos": "v",
+        "meaning": "thu thập, sưu tầm"
+      },
+      {
+        "word": "collection",
+        "pos": "n",
+        "meaning": "bộ sưu tập, sự thu thập"
+      },
+      {
+        "word": "collector",
+        "pos": "n",
+        "meaning": "người sưu tầm"
+      },
+      {
+        "word": "collective",
+        "pos": "adj",
+        "meaning": "tập thể, chung"
+      },
+      {
+        "word": "collectively",
+        "pos": "adv",
+        "meaning": "một cách tập thể, cùng nhau"
+      }
+    ]
+  },
+  {
+    "no": 3,
+    "base": "produce",
+    "meaning": "sản xuất, tạo ra",
+    "wordForms": [
+      {
+        "word": "produce",
+        "pos": "v",
+        "meaning": "sản xuất, tạo ra"
+      },
+      {
+        "word": "product",
+        "pos": "n",
+        "meaning": "sản phẩm"
+      },
+      {
+        "word": "production",
+        "pos": "n",
+        "meaning": "sự sản xuất, quá trình sản xuất"
+      },
+      {
+        "word": "producer",
+        "pos": "n",
+        "meaning": "nhà sản xuất"
+      },
+      {
+        "word": "productive",
+        "pos": "adj",
+        "meaning": "có năng suất, hiệu quả"
+      },
+      {
+        "word": "productively",
+        "pos": "adv",
+        "meaning": "một cách hiệu quả, có năng suất"
+      }
+    ]
+  },
+  {
+    "no": 4,
+    "base": "attract",
+    "meaning": "thu hút",
+    "wordForms": [
+      {
+        "word": "attract",
+        "pos": "v",
+        "meaning": "thu hút"
+      },
+      {
+        "word": "attraction",
+        "pos": "n",
+        "meaning": "sự thu hút, điểm thu hút"
+      },
+      {
+        "word": "attractive",
+        "pos": "adj",
+        "meaning": "hấp dẫn, thu hút"
+      },
+      {
+        "word": "attractively",
+        "pos": "adv",
+        "meaning": "một cách hấp dẫn, thu hút"
+      }
+    ]
+  },
+  {
+    "no": 5,
+    "base": "responsibility",
+    "meaning": "trách nhiệm",
+    "wordForms": [
+      {
+        "word": "responsibility",
+        "pos": "n",
+        "meaning": "trách nhiệm"
+      },
+      {
+        "word": "responsible",
+        "pos": "adj",
+        "meaning": "có trách nhiệm"
+      },
+      {
+        "word": "responsibly",
+        "pos": "adv",
+        "meaning": "một cách có trách nhiệm"
+      }
+    ]
+  },
+  {
+    "no": 6,
+    "base": "enjoy",
+    "meaning": "tận hưởng",
+    "wordForms": [
+      {
+        "word": "enjoy",
+        "pos": "v",
+        "meaning": "tận hưởng"
+      },
+      {
+        "word": "enjoyment",
+        "pos": "n",
+        "meaning": "sự tận hưởng, niềm vui"
+      },
+      {
+        "word": "enjoyable",
+        "pos": "adj",
+        "meaning": "thú vị, vui vẻ"
+      },
+      {
+        "word": "enjoyably",
+        "pos": "adv",
+        "meaning": "một cách thú vị, vui vẻ"
+      }
+    ]
+  },
+  {
+    "no": 7,
+    "base": "pride",
+    "meaning": "niềm tự hào; tự hào",
+    "wordForms": [
+      {
+        "word": "pride",
+        "pos": "n",
+        "meaning": "niềm tự hào"
+      },
+      {
+        "word": "pride",
+        "pos": "v",
+        "meaning": "tự hào"
+      },
+      {
+        "word": "proud",
+        "pos": "adj",
+        "meaning": "tự hào"
+      },
+      {
+        "word": "proudly",
+        "pos": "adv",
+        "meaning": "một cách tự hào"
+      }
+    ],
+    "note": "pride oneself on doing sth"
+  },
+  {
+    "no": 8,
+    "base": "develop",
+    "meaning": "phát triển",
+    "wordForms": [
+      {
+        "word": "develop",
+        "pos": "v",
+        "meaning": "phát triển"
+      },
+      {
+        "word": "development",
+        "pos": "n",
+        "meaning": "sự phát triển"
+      },
+      {
+        "word": "developer",
+        "pos": "n",
+        "meaning": "nhà phát triển"
+      },
+      {
+        "word": "developed",
+        "pos": "adj",
+        "meaning": "đã phát triển"
+      },
+      {
+        "word": "developing",
+        "pos": "adj",
+        "meaning": "đang phát triển"
+      }
+    ]
+  },
+  {
+    "no": 9,
+    "base": "volunteer",
+    "meaning": "tình nguyện",
+    "wordForms": [
+      {
+        "word": "volunteer",
+        "pos": "v",
+        "meaning": "tình nguyện"
+      },
+      {
+        "word": "volunteer",
+        "pos": "n",
+        "meaning": "tình nguyện viên"
+      },
+      {
+        "word": "voluntary",
+        "pos": "adj",
+        "meaning": "tự nguyện"
+      },
+      {
+        "word": "voluntarily",
+        "pos": "adv",
+        "meaning": "một cách tự nguyện"
+      }
+    ]
+  },
+  {
+    "no": 10,
+    "base": "donate",
+    "meaning": "quyên góp, hiến tặng",
+    "wordForms": [
+      {
+        "word": "donate",
+        "pos": "v",
+        "meaning": "quyên góp, hiến tặng"
+      },
+      {
+        "word": "donation",
+        "pos": "n",
+        "meaning": "sự quyên góp, khoản/vật quyên góp"
+      },
+      {
+        "word": "donor",
+        "pos": "n",
+        "meaning": "người hiến tặng"
+      }
+    ]
+  }
+]

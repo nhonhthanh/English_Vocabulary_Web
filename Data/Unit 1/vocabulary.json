@@ -1,0 +1,212 @@
+[
+  {
+    "no": 1,
+    "word": "artisan",
+    "pos": "n",
+    "pronunciation": "/ˈɑːtɪzæn/",
+    "meaning": "thợ thủ công"
+  },
+  {
+    "no": 2,
+    "word": "city centre",
+    "pos": "n",
+    "pronunciation": "/ˈsɪti ˈsɛntə/",
+    "meaning": "trung tâm thành phố"
+  },
+  {
+    "no": 3,
+    "word": "community",
+    "pos": "n",
+    "pronunciation": "/kəˈmjuːnɪti/",
+    "meaning": "cộng đồng"
+  },
+  {
+    "no": 4,
+    "word": "craft",
+    "pos": "n",
+    "pronunciation": "/krɑːft/",
+    "meaning": "thủ công mỹ nghệ"
+  },
+  {
+    "no": 5,
+    "word": "delivery person",
+    "pos": "n",
+    "pronunciation": "/dɪˈlɪvəri ˈpɜːsən/",
+    "meaning": "người giao hàng"
+  },
+  {
+    "no": 6,
+    "word": "electrical wires",
+    "pos": "n",
+    "pronunciation": "/ɪˈlɛktrɪkəl waɪərz/",
+    "meaning": "dây điện"
+  },
+  {
+    "no": 7,
+    "word": "electrician",
+    "pos": "n",
+    "pronunciation": "/ɪlɛkˈtrɪʃən/",
+    "meaning": "thợ điện"
+  },
+  {
+    "no": 8,
+    "word": "facilities",
+    "pos": "n",
+    "pronunciation": "/fəˈsɪlɪtiz/",
+    "meaning": "cơ sở vật chất"
+  },
+  {
+    "no": 9,
+    "word": "firefighter",
+    "pos": "n",
+    "pronunciation": "/ˈfaɪəˌfaɪtə/",
+    "meaning": "lính cứu hỏa"
+  },
+  {
+    "no": 10,
+    "word": "fragrance",
+    "pos": "n",
+    "pronunciation": "/ˈfreɪɡrəns/",
+    "meaning": "hương thơm"
+  },
+  {
+    "no": 11,
+    "word": "function",
+    "pos": "n",
+    "pronunciation": "/ˈfʌŋkʃən/",
+    "meaning": "chức năng"
+  },
+  {
+    "no": 12,
+    "word": "garbage collector",
+    "pos": "n",
+    "pronunciation": "/ˈɡɑːbɪdʒ kəˈlɛktə/",
+    "meaning": "người thu gom rác"
+  },
+  {
+    "no": 13,
+    "word": "hand-craft",
+    "pos": "v",
+    "pronunciation": "/ˈhændkrɑːft/",
+    "meaning": "làm thủ công"
+  },
+  {
+    "no": 14,
+    "word": "handicraft",
+    "pos": "n",
+    "pronunciation": "/ˈhændɪkrɑːft/",
+    "meaning": "đồ thủ công"
+  },
+  {
+    "no": 15,
+    "word": "instruct",
+    "pos": "v",
+    "pronunciation": "/ɪnˈstrʌkt/",
+    "meaning": "hướng dẫn"
+  },
+  {
+    "no": 16,
+    "word": "local",
+    "pos": "adj",
+    "pronunciation": "/ˈləʊkəl/",
+    "meaning": "địa phương"
+  },
+  {
+    "no": 17,
+    "word": "neighbourhood",
+    "pos": "n",
+    "pronunciation": "/ˈneɪbəhʊd/",
+    "meaning": "khu vực lân cận"
+  },
+  {
+    "no": 18,
+    "word": "occasion",
+    "pos": "n",
+    "pronunciation": "/əˈkeɪʒən/",
+    "meaning": "dịp, cơ hội"
+  },
+  {
+    "no": 19,
+    "word": "original",
+    "pos": "adj",
+    "pronunciation": "/əˈrɪdʒɪnəl/",
+    "meaning": "nguyên bản"
+  },
+  {
+    "no": 20,
+    "word": "police officer",
+    "pos": "n",
+    "pronunciation": "/pəˈliːs ˈɒfɪsə/",
+    "meaning": "cảnh sát"
+  },
+  {
+    "no": 21,
+    "word": "pottery",
+    "pos": "n",
+    "pronunciation": "/ˈpɒtəri/",
+    "meaning": "đồ gốm"
+  },
+  {
+    "no": 22,
+    "word": "preserve",
+    "pos": "v",
+    "pronunciation": "/prɪˈzɜːv/",
+    "meaning": "bảo tồn"
+  },
+  {
+    "no": 23,
+    "word": "property",
+    "pos": "n",
+    "pronunciation": "/ˈprɒpəti/",
+    "meaning": "tài sản"
+  },
+  {
+    "no": 24,
+    "word": "shopping malls",
+    "pos": "n",
+    "pronunciation": "/ˈʃɒpɪŋ mɔːlz/",
+    "meaning": "trung tâm mua sắm"
+  },
+  {
+    "no": 25,
+    "word": "shorten",
+    "pos": "v",
+    "pronunciation": "/ˈʃɔːtn/",
+    "meaning": "rút ngắn"
+  },
+  {
+    "no": 26,
+    "word": "sort",
+    "pos": "v",
+    "pronunciation": "/sɔːrt/",
+    "meaning": "phân loại"
+  },
+  {
+    "no": 27,
+    "word": "speciality food",
+    "pos": "n",
+    "pronunciation": "/ˌspɛʃiˈælɪti fuːd/",
+    "meaning": "đặc sản"
+  },
+  {
+    "no": 28,
+    "word": "suburb",
+    "pos": "n",
+    "pronunciation": "/ˈsʌbɜːb/",
+    "meaning": "ngoại ô"
+  },
+  {
+    "no": 29,
+    "word": "tourist attraction",
+    "pos": "n",
+    "pronunciation": "/ˈtʊərɪst əˈtrækʃən/",
+    "meaning": "điểm thu hút khách du lịch"
+  },
+  {
+    "no": 30,
+    "word": "world-famous",
+    "pos": "adj",
+    "pronunciation": "/ˌwɜːld ˈfeɪməs/",
+    "meaning": "nổi tiếng thế giới"
+  }
+]

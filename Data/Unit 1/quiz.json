@@ -1,0 +1,62 @@
+[
+  {
+    "no": 1,
+    "question": "A skilled ______ makes beautiful traditional products by hand.",
+    "options": ["artisan", "electrician", "firefighter", "collector"],
+    "answer": "artisan"
+  },
+  {
+    "no": 2,
+    "question": "We should ______ our old traditions for future generations.",
+    "options": ["preserve", "shorten", "sort", "instruct"],
+    "answer": "preserve"
+  },
+  {
+    "no": 3,
+    "question": "I need to ______ more information about the pottery village.",
+    "options": ["find out", "come back", "go out", "look around"],
+    "answer": "find out"
+  },
+  {
+    "no": 4,
+    "question": "The children should ______ their grandparents.",
+    "options": ["look for", "take care of", "get on with", "give advice"],
+    "answer": "take care of"
+  },
+  {
+    "no": 5,
+    "question": "These traditional crafts have been ______ from generation to generation.",
+    "options": ["handed down", "cut down", "gone out", "found out"],
+    "answer": "handed down"
+  },
+  {
+    "no": 6,
+    "question": "The town is famous for its ______.",
+    "options": ["speciality food", "facilities", "property", "function"],
+    "answer": "speciality food"
+  },
+  {
+    "no": 7,
+    "question": "The local people are very ______ and always welcome visitors warmly.",
+    "options": ["neighbourly", "developing", "original", "productive"],
+    "answer": "neighbourly"
+  },
+  {
+    "no": 8,
+    "question": "The new shopping mall has many modern ______.",
+    "options": ["facilities", "fragrances", "artisans", "occasions"],
+    "answer": "facilities"
+  },
+  {
+    "no": 9,
+    "question": "Tourism can contribute to the ______ of a local community.",
+    "options": ["development", "collection", "donation", "enjoyment"],
+    "answer": "development"
+  },
+  {
+    "no": 10,
+    "question": "Many people work ______ to protect traditional handicrafts.",
+    "options": ["responsibly", "attractive", "voluntary", "proud"],
+    "answer": "responsibly"
+  }
+]
