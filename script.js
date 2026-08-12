@@ -347,7 +347,7 @@ const quizQuestions = [
     {
         question: "The town is famous for its special ______.",
         options: ["food", "facilities", "property", "function"],
-        answer: "speciality food"
+        answer: "food"
     },
 
     {
