@@ -442,7 +442,7 @@ async function sendTrackingData(scoreValue, accuracy) {
 const currentUnit = 'Unit 1';
 const studentNameInput = document.getElementById('studentName');
 const studentClassInput = document.getElementById('studentClass');
-const trackingUrl = "https://script.google.com/macros/s/AKfycbyRKMNKAiajtKM_pG7GnKW4G8o42tBJE-lPYje3iebaRzrL1s_cjttX2E2J7Z3yZX0A/exec";
+const trackingUrl = 'https://script.google.com/macros/s/AKfycbyRKMNKAiajtKM_pG7GnKW4G8o42tBJE-lPYje3iebaRzrL1s_cjttX2E2J7Z3yZX0A/exec';
 const quizResult =
     document.getElementById("quizResult");
 
