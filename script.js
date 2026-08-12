@@ -1,4 +1,4 @@
-// ========================================
+﻿// ========================================
 // English 9 Vocabulary
 // Teacher: Huynh Thanh Nhon
 // Search + Flashcards
@@ -389,12 +389,60 @@ const submitQuiz =
 
 const retryQuiz =
     document.getElementById("retryQuiz");
+function validateStudentInfo() {
+    const message = document.getElementById("studentInfoMessage");
+    const name = studentNameInput ? studentNameInput.value.trim() : "";
+    const className = studentClassInput ? studentClassInput.value.trim() : "";
 
+    if (!name) {
+        if (message) message.textContent = "Please enter your full name.";
+        if (studentNameInput) studentNameInput.focus();
+        return false;
+    }
+
+    if (!className) {
+        if (message) message.textContent = "Please enter your class.";
+        if (studentClassInput) studentClassInput.focus();
+        return false;
+    }
+
+    if (message) message.textContent = "";
+    return true;
+}
+
+async function sendTrackingData(scoreValue, accuracy) {
+    const name = studentNameInput ? studentNameInput.value.trim() : "";
+    const className = studentClassInput ? studentClassInput.value.trim() : "";
+
+    const payload = {
+        name: name,
+        className: className,
+        unit: currentUnit,
+        score: scoreValue,
+        accuracy: accuracy
+    };
+
+    try {
+        await fetch(trackingUrl, {
+            method: "POST",
+            mode: "no-cors",
+            headers: {
+                "Content-Type": "text/plain;charset=utf-8"
+            },
+            body: JSON.stringify(payload)
+        });
+
+        return true;
+    } catch (error) {
+        console.error("Tracking error:", error);
+        return false;
+    }
+}
 
 const currentUnit = 'Unit 1';
 const studentNameInput = document.getElementById('studentName');
 const studentClassInput = document.getElementById('studentClass');
-const trackingUrl = "";
+const trackingUrl = "https://script.google.com/macros/s/AKfycbyRKMNKAiajtKM_pG7GnKW4G8o42tBJE-lPYje3iebaRzrL1s_cjttX2E2J7Z3yZX0A/exec";
 const quizResult =
     document.getElementById("quizResult");
 
@@ -463,7 +511,9 @@ function loadQuiz() {
 if (submitQuiz) {
 
     submitQuiz.addEventListener("click", function () {
-
+    if (!validateStudentInfo()) {
+        return;
+    }
         let score = 0;
 
         quizQuestions.forEach(function (item, index) {
@@ -505,6 +555,10 @@ if (submitQuiz) {
             score +
             " / " +
             quizQuestions.length;
+    const accuracy =
+        Math.round((score / quizQuestions.length) * 100);
+
+    sendTrackingData(score, accuracy);
 
         submitQuiz.style.display = "none";
 

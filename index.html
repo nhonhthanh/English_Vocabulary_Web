@@ -141,51 +141,6 @@
             font-size: 25px;
         }
     }
-
-    .student-info {
-        background: #f8fafc;
-        border: 1px solid #dbeafe;
-        border-radius: 10px;
-        padding: 18px;
-        margin-bottom: 20px;
-    }
-
-    .student-field {
-        margin-bottom: 14px;
-    }
-
-    .student-field:last-of-type {
-        margin-bottom: 8px;
-    }
-
-    .student-field label {
-        display: block;
-        margin-bottom: 6px;
-        font-weight: 600;
-        color: #1e3a8a;
-    }
-
-    .student-field input {
-        width: 100%;
-        box-sizing: border-box;
-        padding: 10px 12px;
-        border: 1px solid #cbd5e1;
-        border-radius: 8px;
-        font-size: 16px;
-        outline: none;
-    }
-
-    .student-field input:focus {
-        border-color: #2563eb;
-        box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.12);
-    }
-
-    .student-info-message {
-        min-height: 20px;
-        color: #dc2626;
-        font-size: 14px;
-        font-weight: 500;
-    }
 </style>
 </head>
 
@@ -386,22 +341,30 @@ function showSection(sectionId, button) {
 </script>
 <section id="quizSection" class="content">
     <h2>Unit 1 Quiz</h2>
+<div style="margin: 20px 0; padding: 15px; background: #eff6ff; border-radius: 10px;">
+    <label for="studentName"><strong>Full Name:</strong></label>
+    <input
+        type="text"
+        id="studentName"
+        placeholder="Enter your full name"
+        style="display:block; width:100%; max-width:500px; padding:10px; margin:8px 0 15px; border:1px solid #cbd5e1; border-radius:6px;"
+    >
+
+    <label for="studentClass"><strong>Class:</strong></label>
+    <input
+        type="text"
+        id="studentClass"
+        placeholder="Enter your class"
+        style="display:block; width:100%; max-width:500px; padding:10px; margin-top:8px; border:1px solid #cbd5e1; border-radius:6px;"
+    >
+
+    <p id="studentInfoMessage" style="color:#dc2626; margin-top:10px;"></p>
+</div>
     <p>
         Test your vocabulary, collocations, phrasal verbs,
         and word forms.
     </p>
 
-    <div class="student-info">
-        <div class="student-field">
-            <label for="studentName">Họ và tên:</label>
-            <input type="text" id="studentName" placeholder="Nhập họ và tên" required>
-        </div>
-        <div class="student-field">
-            <label for="studentClass">Lớp:</label>
-            <input type="text" id="studentClass" placeholder="Ví dụ: 9A1" required>
-        </div>
-        <div id="studentInfoMessage" class="student-info-message"></div>
-    </div>
     <div id="quizContainer"></div>
 
     <button id="submitQuiz" class="check-button">
